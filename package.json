@@ -1,19 +1,24 @@
 {
   "name": "ts-project-template",
-  "version": "1.0.0",
-  "description": "<!-- anchor --> <div id=\"top\"></div>",
-  "main": "index.js",
+  "version": "0.1.0",
+  "description": "Typescript project boilerplate",
   "directories": {
     "doc": "docs"
   },
+  "engine": {
+    "node": ">=14.0.0",
+    "yarn": "yarn is not supported, please use npm",
+    "npm": ">=6.0.0"
+  },
   "scripts": {
+    "preinstall": "if [[ $npm_execpath =~ 'yarn' ]]; then echo 'Use NPM!' && exit 1; fi",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jonitoh/ts-project-template.git"
   },
-  "author": "",
+  "author": "TOH Ninsemou Jordan",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/jonitoh/ts-project-template/issues"
