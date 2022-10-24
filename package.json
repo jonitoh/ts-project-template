@@ -2,6 +2,11 @@
     "name": "ts-project-template",
     "version": "0.1.0",
     "description": "Typescript project boilerplate",
+    "keywords": [
+        "typescript",
+        "boilerplate",
+        "starter"
+    ],
     "directories": {
         "doc": "docs"
     },
@@ -13,6 +18,8 @@
     "scripts": {
         "preinstall": "if [[ $npm_execpath =~ 'yarn' ]]; then echo 'Use NPM!' && exit 1; fi",
         "format": "prettier --write .",
+        "lint": "eslint --fix .",
+        "verify": "npm-run-all --sequential format lint",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "repository": {
@@ -28,6 +35,18 @@
     "devDependencies": {
         "@commitlint/cli": "^17.1.2",
         "@commitlint/config-conventional": "^17.1.0",
+        "@types/node": "^18.11.4",
+        "@typescript-eslint/eslint-plugin": "^5.41.0",
+        "@typescript-eslint/parser": "^5.41.0",
+        "eslint": "^8.26.0",
+        "eslint-config-airbnb-base": "^15.0.0",
+        "eslint-config-airbnb-typescript": "^17.0.0",
+        "eslint-config-prettier": "^8.5.0",
+        "eslint-import-resolver-alias": "^1.1.2",
+        "eslint-import-resolver-typescript": "^3.5.2",
+        "eslint-plugin-import": "^2.26.0",
+        "eslint-plugin-prettier": "^4.2.1",
+        "npm-run-all": "^4.1.5",
         "prettier": "^2.7.1",
         "typescript": "^4.8.4"
     }
