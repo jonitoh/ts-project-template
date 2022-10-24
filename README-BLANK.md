@@ -28,6 +28,7 @@ README available in:
 <br/>
 
 <!-- github badges -->
+
 ![GitHub contributors](https://img.shields.io/github/contributors/-account-/-repo-)
 ![GitHub repo size](https://img.shields.io/github/repo-size/-account-/-repo-)
 ![GitHub all releases](https://img.shields.io/github/downloads/-account-/-repo-/total)
@@ -45,10 +46,15 @@ README available in:
 <br/>
 
 ---
+
 ---
+
 <!-- news / quick announcements -->
+
 ### News and/or quick announcements 🥳
+
 ---
+
 ---
 
 <!-- summary -->
@@ -57,7 +63,7 @@ README available in:
 
 **TABLE OF CONTENT**
 
-[**🌱&nbsp; About the project**](#philosophy) | [**👨‍💻&nbsp; Tech stack**](#tech) | 
+[**🌱&nbsp; About the project**](#philosophy) | [**👨‍💻&nbsp; Tech stack**](#tech) |
 [**📖&nbsp; Usage**](#usage) |
 [**🎯&nbsp; Features**](#features) |
 [**⚠️&nbsp; Limitations**](#limits) |
@@ -70,7 +76,7 @@ README available in:
 
 # <a id="philosophy">🌱&nbsp;</a> About the project
 
-*In this section, explain your philosophy to the genese of the project !*
+_In this section, explain your philosophy to the genese of the project !_
 
 <!-- back to top -->
 <p align="right">
@@ -79,11 +85,9 @@ README available in:
  </a>
 </p>
 
-
 # <a id="tech">👨‍💻&nbsp;</a> Tech stack
 
-*In this section, list only the main technologies that the project use.*
-
+_In this section, list only the main technologies that the project use._
 
 <!-- back to top -->
 <p align="right">
@@ -94,23 +98,21 @@ README available in:
 
 # <a id="usage">📖&nbsp;</a> Usage
 
-*This section is here to help anyone smoothly install and use the project.*
+_This section is here to help anyone smoothly install and use the project._
 
 <br/>
 
 ## 🚀&nbsp; Getting started
 
-*Here are the instructions on setting up the project whether it's locally or on remote. You can add a link to a detailed documentation.*
+_Here are the instructions on setting up the project whether it's locally or on remote. You can add a link to a detailed documentation._
 
 ## ⚙️&nbsp; Requirements
 
-*In this section, you can list any packages, third parties softwares or middlewares that you might judge relevant.*
-
+_In this section, you can list any packages, third parties softwares or middlewares that you might judge relevant._
 
 ## 👀&nbsp; Examples
 
-*Show useful examples of the project with additional screenshots, code examples and demos if possible.*
-
+_Show useful examples of the project with additional screenshots, code examples and demos if possible._
 
 <!-- back to top -->
 <p align="right">
@@ -118,12 +120,10 @@ README available in:
    <img height="20px" src="docs/assets/up-arrow-svgrepo-com.svg" />
  </a>
 </p>
-
 
 # <a id="features">🎯&nbsp;</a> Features
 
-*Shortly list all the features: the completed ones and the ones in progress*
-
+_Shortly list all the features: the completed ones and the ones in progress_
 
 <!-- back to top -->
 <p align="right">
@@ -131,12 +131,10 @@ README available in:
    <img height="20px" src="docs/assets/up-arrow-svgrepo-com.svg" />
  </a>
 </p>
-
 
 # <a id="limits">⚠️&nbsp;</a> Limitations
 
-*Explain and list the possible limitations you encounter with your project.*
-
+_Explain and list the possible limitations you encounter with your project._
 
 <!-- back to top -->
 <p align="right">
@@ -145,11 +143,9 @@ README available in:
  </a>
 </p>
 
-
 # <a id="contribs">🤝&nbsp;</a> Contributions
 
-*This section is here to smooth the process of anyone who would like to contribute.*
-
+_This section is here to smooth the process of anyone who would like to contribute._
 
 <!-- back to the top -->
 <p align="right">
@@ -157,12 +153,10 @@ README available in:
    <img height="20px" src="docs/assets/up-arrow-svgrepo-com.svg" />
  </a>
 </p>
-
 
 # <a id="license">📘&nbsp;</a> License
 
-*Even if this section might seem an unecessary addition since a license badge is generated, it is always good to remember it again. You can also explain your choice for this license here.*
-
+_Even if this section might seem an unecessary addition since a license badge is generated, it is always good to remember it again. You can also explain your choice for this license here._
 
 <!-- back to the top -->
 <p align="right">
@@ -170,11 +164,10 @@ README available in:
    <img height="20px" src="docs/assets/up-arrow-svgrepo-com.svg" />
  </a>
 </p>
-
 
 # <a id="acknowledgments">❤️&nbsp;</a> Acknowledgments
 
-*Use this space to list resources you find helpful and would like to give credits to!*
+_Use this space to list resources you find helpful and would like to give credits to!_
 
 <!-- back to the top -->
 <p align="right">
@@ -183,9 +176,9 @@ README available in:
  </a>
 </p>
 
-# <a id="encore">👀&nbsp;</a> What else ? 
+# <a id="encore">👀&nbsp;</a> What else ?
 
-*An optional section to add one last thing before ending this amazing README.*
+_An optional section to add one last thing before ending this amazing README._
 
 <!-- back to the top -->
 <p align="right">

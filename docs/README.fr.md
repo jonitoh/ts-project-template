@@ -28,6 +28,7 @@ README disponible en:
 <br/>
 
 <!-- github badges -->
+
 ![GitHub contributors](https://img.shields.io/github/contributors/jonitoh/readme-examples)
 ![GitHub repo size](https://img.shields.io/github/repo-size/jonitoh/readme-examples)
 ![GitHub all releases](https://img.shields.io/github/downloads/jonitoh/readme-examples/total)
@@ -45,10 +46,15 @@ README disponible en:
 <br/>
 
 ---
+
 ---
+
 <!-- news / quick announcements -->
+
 ### Ce README est prêt-à-l'emploi! 🥳
+
 ---
+
 ---
 
 <!-- summary -->
@@ -57,7 +63,7 @@ README disponible en:
 
 **TABLE OF CONTENT**
 
-[**🌱&nbsp; Quel projet ?**](#philosophy) | [**👨‍💻&nbsp; Tech stack**](#tech) | 
+[**🌱&nbsp; Quel projet ?**](#philosophy) | [**👨‍💻&nbsp; Tech stack**](#tech) |
 [**📖&nbsp; Utilisation**](#usage) |
 [**🎯&nbsp; Fonctionnalités**](#features) |
 [**⚠️&nbsp; Limitations**](#limits) |
@@ -72,7 +78,7 @@ README disponible en:
 
 Dans tout bon projet qui se respecte, une bonne documentation s'y présente. Ça apporte de la clarté et de la structure dans le projet, que ce soit pour ceux qui y contribuent ou ceux qui souhaitent seulement l'utiliser.
 
-On peut trouver d'innombrables README sur internet et même  GitHub. J'ai quand-même décider de créer mon propre patron pour pouvoir commencer très rapidement mes projets sans cette charge supplémentaire sur la documentation.
+On peut trouver d'innombrables README sur internet et même GitHub. J'ai quand-même décider de créer mon propre patron pour pouvoir commencer très rapidement mes projets sans cette charge supplémentaire sur la documentation.
 
 <!-- back to top -->
 <p align="right">
@@ -80,7 +86,6 @@ On peut trouver d'innombrables README sur internet et même  GitHub. J'ai quand-
    <img height="20px" src="assets/up-arrow-svgrepo-com.svg" />
  </a>
 </p>
-
 
 # <a id="tech">👨‍💻&nbsp;</a> Tech stack
 
@@ -105,7 +110,7 @@ Le fichier `README-BLANK.md` fournit un patron épuré qui peut utiliser. Par co
 
 ## ⚙️&nbsp; Minimales spécifications
 
-Aucune. 
+Aucune.
 
 ## 👀&nbsp; Exemples
 
@@ -118,15 +123,14 @@ Ce README en est un exemple.
  </a>
 </p>
 
-
 # <a id="features">🎯&nbsp;</a> Fonctionnalités
 
-- [x] Ajout d'emojis
-- [x] Ajout du lien "retour en haut"
-- [ ] Ajout de gifs
-- [x] Support des langues suivantes:
-    - [x] Français
-    - [x] Anglais
+-   [x] Ajout d'emojis
+-   [x] Ajout du lien "retour en haut"
+-   [ ] Ajout de gifs
+-   [x] Support des langues suivantes:
+    -   [x] Français
+    -   [x] Anglais
 
 <!-- back to top -->
 <p align="right">
@@ -134,11 +138,10 @@ Ce README en est un exemple.
    <img height="20px" src="assets/up-arrow-svgrepo-com.svg" />
  </a>
 </p>
-
 
 # <a id="limits">⚠️&nbsp;</a> Limitations
 
-- Pour l'instant, ce README est assez générique et pas trop spécifique pour qu'il puisse coller à tous les projets.
+-   Pour l'instant, ce README est assez générique et pas trop spécifique pour qu'il puisse coller à tous les projets.
 
 <!-- back to top -->
 <p align="right">
@@ -146,7 +149,6 @@ Ce README en est un exemple.
    <img height="20px" src="assets/up-arrow-svgrepo-com.svg" />
  </a>
 </p>
-
 
 # <a id="contribs">🤝&nbsp;</a> Contributions
 
@@ -154,10 +156,9 @@ Ce README en est un exemple.
 
 😱 Un bogue ? Une fonctionnalité manquante ?
 
-Pour toute suggestion, "forkez" le répertoire et effectuez un "pull request" ou ouvrez une "issue" avec l'étiquette `enhancement`. 
+Pour toute suggestion, "forkez" le répertoire et effectuez un "pull request" ou ouvrez une "issue" avec l'étiquette `enhancement`.
 
 🤩 N'oubliez pas de partager ce projet et d'y mettre une étoile! Encore merci!
-
 
 <!-- back to the top -->
 <p align="right">
@@ -165,7 +166,6 @@ Pour toute suggestion, "forkez" le répertoire et effectuez un "pull request" ou
    <img height="20px" src="assets/up-arrow-svgrepo-com.svg" />
  </a>
 </p>
-
 
 # <a id="license">📘&nbsp;</a> Licence
 
@@ -178,19 +178,18 @@ La licence de ce projet est [MIT](LICENSE).
  </a>
 </p>
 
-
 # <a id="acknowledgments">❤️&nbsp;</a> Merci à vous !
 
-🏆 Le nom des nominés retenus, sans ordre particulier, dans la catégorie de ***meilleure ressource déterminante pour ce projet***:
+🏆 Le nom des nominés retenus, sans ordre particulier, dans la catégorie de **_meilleure ressource déterminante pour ce projet_**:
 
-* [How to Add Badges to a GitHub Repository](https://betterprogramming.pub/add-badges-to-a-github-repository-716d2988dc6a)
-* [Choose an Open Source License](https://choosealicense.com)
-* [Img Shields](https://shields.io) pour trouver ces superbes badges !
-* [HTML code generator](https://www.html-code-generator.com/svg/country-flags) pour les drapeaux 
-* [SVG Repo](https://www.svgrepo.com/) pour le logo et les autres icones.
-* [Awesome README](https://github.com/matiassingers/awesome-readme): une liste de README superbe à regarder!
-* [Best-README-Template](https://github.com/othneildrew/Best-README-Template): un autre patron de README inspirant.
-* [Fiber](https://github.com/gofiber/fiber) pour leur README qui supporte plusieurs langues.
+-   [How to Add Badges to a GitHub Repository](https://betterprogramming.pub/add-badges-to-a-github-repository-716d2988dc6a)
+-   [Choose an Open Source License](https://choosealicense.com)
+-   [Img Shields](https://shields.io) pour trouver ces superbes badges !
+-   [HTML code generator](https://www.html-code-generator.com/svg/country-flags) pour les drapeaux
+-   [SVG Repo](https://www.svgrepo.com/) pour le logo et les autres icones.
+-   [Awesome README](https://github.com/matiassingers/awesome-readme): une liste de README superbe à regarder!
+-   [Best-README-Template](https://github.com/othneildrew/Best-README-Template): un autre patron de README inspirant.
+-   [Fiber](https://github.com/gofiber/fiber) pour leur README qui supporte plusieurs langues.
 
 <!-- back to the top -->
 <p align="right">
@@ -199,9 +198,9 @@ La licence de ce projet est [MIT](LICENSE).
  </a>
 </p>
 
-# <a id="encore">👀&nbsp;</a> Et sinon ? 
+# <a id="encore">👀&nbsp;</a> Et sinon ?
 
-*An optional section to add one last thing before ending this amazing README.*
+_An optional section to add one last thing before ending this amazing README._
 
 Merci encore pour avoir lu jusqu'au bout ce README!!!
 
