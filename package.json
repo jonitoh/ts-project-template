@@ -19,7 +19,8 @@
         "preinstall": "if [[ $npm_execpath =~ 'yarn' ]]; then echo 'Use NPM!' && exit 1; fi",
         "format": "prettier --write .",
         "lint": "eslint --fix .",
-        "verify": "npm-run-all --sequential format lint",
+        "verify": "npm run format && npm run lint",
+        "prepare": "husky install",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "repository": {
@@ -46,7 +47,7 @@
         "eslint-import-resolver-typescript": "^3.5.2",
         "eslint-plugin-import": "^2.26.0",
         "eslint-plugin-prettier": "^4.2.1",
-        "npm-run-all": "^4.1.5",
+        "husky": "^8.0.1",
         "prettier": "^2.7.1",
         "typescript": "^4.8.4"
     }
