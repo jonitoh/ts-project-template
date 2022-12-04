@@ -8,7 +8,11 @@ VSCode
 For test ( Jest, Testing Library, Cypress)
 
 best practice log ???
-https://blog.logrocket.com/node-js-logging-best-practices-essential-guide/#start-with-console-log
+https://blog.logrocket.com/node-js-logging-best-practices-essential-guide/#start-with-console-log``
+https://tslog.js.org/#/
+https://blog.morizyun.com/javascript/library-typescript-pino-logger.html
+https://betterstack.com/community/guides/logging/how-to-install-setup-and-use-pino-to-log-node-js-applications/
+
 
 
 https://dev.to/sohandutta/make-everyone-in-your-project-write-beautiful-commit-messages-using-commitlint-and-commitizen-1amn
