@@ -7,6 +7,10 @@ Commitlint
 VSCode
 For test ( Jest, Testing Library, Cypress)
 
+https://dev.to/sohandutta/make-everyone-in-your-project-write-beautiful-commit-messages-using-commitlint-and-commitizen-1amn
+
+[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
+
 ### Features
 
 Developer experience first:
