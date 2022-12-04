@@ -5,6 +5,8 @@
         "allowJs": true,
         "strict": true,
         "forceConsistentCasingInFileNames": true,
+        "noImplicitReturns": true,
+        "noUnusedLocals": true,
         "esModuleInterop": true,
         "target": "esnext",
         "module": "CommonJS",
