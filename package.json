@@ -7,9 +7,8 @@
         "boilerplate",
         "starter"
     ],
-    "directories": {
-        "doc": "docs"
-    },
+    "main": "dist/index.js",
+    "typings": "dist/index.d.ts",
     "engine": {
         "node": ">=14.0.0",
         "yarn": "yarn is not supported, please use npm",
@@ -20,6 +19,13 @@
         "format": "prettier --write .",
         "lint": "eslint --fix .",
         "verify": "npm run format && npm run lint",
+        "dev": "ts-node -r tsconfig-paths/register src/index.ts",
+        "clean": "rimraf dist tsconfig.tsbuildinfo node_modules",
+        "compile": "tsc --build",
+        "build": "rimraf dist tsconfig.tsbuildinfo && npm run compile",
+        "start": "node dist/index.js",
+        "prepublishOnly": "npm run build",
+        "watch": "tsc --build -w --preserveWatchOutput",
         "prepare": "husky install",
         "test": "echo \"Error: no test specified\" && exit 1",
         "cm": "cz"
@@ -34,6 +40,9 @@
         "url": "https://github.com/jonitoh/ts-project-template/issues"
     },
     "homepage": "https://github.com/jonitoh/ts-project-template#readme",
+    "peerDependencies": {
+        "typescript": "^4.8.4"
+    },
     "devDependencies": {
         "@commitlint/cli": "^17.3.0",
         "@types/node": "^18.11.4",
@@ -53,6 +62,8 @@
         "husky": "^8.0.1",
         "lint-staged": "^13.0.3",
         "prettier": "^2.7.1",
+        "rimraf": "^3.0.2",
+        "ts-node": "^10.9.1",
         "typescript": "^4.8.4"
     }
 }
