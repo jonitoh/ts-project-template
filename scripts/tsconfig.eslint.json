@@ -1,7 +1,4 @@
 {
     "extends": "../tsconfig.eslint.json",
-    "compilerOptions": {
-        "baseUrl": "scripts"
-    },
     "include": ["**/*.ts"]
 }

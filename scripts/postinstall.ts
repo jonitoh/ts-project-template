@@ -1,11 +1,13 @@
+import getLogger from "../src/lib/logger";
 import type { TCounter } from "./utils";
 import { countFilesAndDirectoriesFromPath } from "./utils";
 
+const log = getLogger({ filepath: __filename });
 function postInstall(): void {
-    console.log("-- postinstall --");
+    log.info("-- postinstall --");
 
     const count: TCounter = countFilesAndDirectoriesFromPath("./");
-    console.log(`number of files: ${count.files} and number of directories: ${count.dirs}`);
+    log.info(`infos on repository`, count);
 }
 
 postInstall();

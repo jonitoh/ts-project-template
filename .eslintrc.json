@@ -18,7 +18,7 @@
     "parser": "@typescript-eslint/parser",
     "parserOptions": {
         "ecmaVersion": "latest",
-        "project": ["./tsconfig.eslint.json", "./scripts/tsconfig.eslint.json"]
+        "project": "**/tsconfig.eslint.json"
     },
     "settings": {
         "import/extensions": [".js", ".ts"],
@@ -31,7 +31,7 @@
             },
             "typescript": {
                 "alwaysTryTypes": true,
-                "project": ["./tsconfig.eslint.json", "./scripts/tsconfig.eslint.json"]
+                "project": "**/tsconfig.eslint.json"
             }
         }
     },

@@ -1,13 +1,15 @@
+import getLogger from "../src/lib/logger";
 import type { TCounter } from "./utils";
 import { checkIfDevMode, countFilesAndDirectoriesFromPath } from "./utils";
 
+const log = getLogger({ filepath: __filename });
 function preInstall(): void {
-    console.log("-- preinstall --");
+    log.info("-- preinstall --");
     const isDevMode = checkIfDevMode();
-    console.log(`Are we in the development mode ? ${isDevMode ? "YES" : "NO"}`);
+    log.info(`Are we in the development mode ? ${isDevMode ? "YES" : "NO"}`);
 
     const count: TCounter = countFilesAndDirectoriesFromPath("./");
-    console.log(`number of files: ${count.files} and number of directories: ${count.dirs}`);
+    log.info(`infos on repository`, count);
 }
 
 preInstall();
