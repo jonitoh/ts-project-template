@@ -76,11 +76,12 @@ function createLogger(): winston.Logger {
         handleRejections: true,
     });
 
-    const dirname: string = path.resolve(process.env.LOG_DIRPATH || "../../logs");
+    const dirname: string = process.env.LOG_DIRPATH || "logs";
     fs.mkdirSync(dirname, { recursive: true });
 
     const fileTransport = process.env.LOG_ROTATE_FILE
         ? new DailyRotateFile({
+              dirname,
               filename: `${nodeEnvStr}__%DATE%.log`,
               datePattern: "YYYY-MM-DD-HH",
               zippedArchive: true,
