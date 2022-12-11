@@ -158,12 +158,12 @@ function formatPath(filepath?: string) {
 	return parts[parts.length - 1];
 }
 
-type Options = {
+export type GetLoggerOptions = {
 	label?: string;
 	filepath?: string;
 };
 
-export default function getLogger({ label, filepath }: Options): winston.Logger {
+export default function getLogger({ label, filepath }: GetLoggerOptions): winston.Logger {
 	return defaultLogger.child({
 		label: label || formatPath(filepath) || "default logger",
 		filepath,

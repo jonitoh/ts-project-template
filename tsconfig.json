@@ -14,5 +14,13 @@
 		}
 	},
 	"include": ["src/**/*.ts"],
-	"exclude": ["node_modules", "dist", "types", "logs"]
+	"exclude": [
+		"node_modules",
+		"dist",
+		"types",
+		"logs",
+		"**/tests/**",
+		"**/*.test.ts",
+		"**/*.test.js"
+	]
 }

@@ -2,6 +2,9 @@
 
 ### Node ###
 
+# Test
+/.jest_cache
+
 # Logs
 /logs
 npm-debug.log*

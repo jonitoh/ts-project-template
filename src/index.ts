@@ -1,5 +1,4 @@
-import { getLength, toUpperCase } from "./lib";
-import getLogger from "./lib/logger";
+import { getLength, getLogger, toUpperCase } from "./lib";
 
 const log = getLogger({ filepath: __filename });
 function dummyFunction(name: string): void {

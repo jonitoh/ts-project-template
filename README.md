@@ -65,6 +65,14 @@ https://www.freecodecamp.org/news/how-to-use-the-dot-github-repository/
 
 liker tous les repos trouvés
 
+tests
+https://dev-mind.fr/blog/2019/start_typescript_project_and_test_with_jest.html#_etape_4_tester_notre_code_avec_jest
+https://codetain.com/blog/jest-test-framework-for-typescript
+
+test the logger ?
+https://www.youtube.com/watch?v=BfA7MosIgik
+https://stackoverflow.com/questions/57771616/how-to-use-jest-to-mock-winston-logger-instance-encapsulated-in-service-class
+
 
 ### Features
 
