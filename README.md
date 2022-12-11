@@ -22,6 +22,11 @@ https://dev.to/sohandutta/make-everyone-in-your-project-write-beautiful-commit-m
 
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 
+
+colorize à voir 
+https://stackoverflow.com/questions/51135092/winston-colorizer-throwing-error
+
+
 ### Features
 
 Developer experience first:
