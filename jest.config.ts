@@ -1,7 +1,12 @@
+import dotenv from "dotenv";
 import type { Config } from "jest";
+// see https://github.com/motdotla/dotenv#how-do-i-use-dotenv-with-import
+dotenv.config();
 
 export default async function createConfiguration(): Promise<Config> {
 	const isDev = process.env.NODE_ENV === "development";
+	const forceCoverage = !!process.env.FORCE_COVERAGE;
+
 	return {
 		testEnvironment: "node",
 		transform: {
@@ -17,14 +22,16 @@ export default async function createConfiguration(): Promise<Config> {
 		setupFiles: ["<rootDir>/src/test/preRun.ts"],
 		collectCoverage: true,
 		collectCoverageFrom: ["**/src/**/*.ts", "!**/node_modules/**", "!**/*.test.data.ts"],
-		coverageThreshold: {
-			global: {
-				branches: 50,
-				functions: 70,
-				lines: 50,
-				statements: 50,
-			},
-		},
+		coverageThreshold: forceCoverage
+			? {
+					global: {
+						branches: 50,
+						functions: 70,
+						lines: 50,
+						statements: 50,
+					},
+			  }
+			: undefined,
 		coveragePathIgnorePatterns: [
 			".*test\\.data\\.ts$,migrations.*.ts$,(.*.(test|spec)).(jsx?|tsx?)$,(tests/.*.mock).(jsx?|tsx?)$",
 		],

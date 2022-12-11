@@ -21,6 +21,7 @@
 		"logs",
 		"**/tests/**",
 		"**/*.test.ts",
-		"**/*.test.js"
+		"**/*.test.js",
+		"coverage"
 	]
 }

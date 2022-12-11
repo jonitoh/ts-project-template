@@ -2,6 +2,8 @@ node_modules
 dist
 types
 logs
+coverage
+.jest_cache
 
 docs
 README.md
