@@ -6,7 +6,7 @@ import DailyRotateFile from "winston-daily-rotate-file";
 function createLogger(): winston.Logger {
     // VARIABLE SECTION
     const isDev = process.env.NODE_ENV !== "production";
-    const nodeEnvStr: string = isDev ? "dev" : "prod";
+    const nodeEnvStr: string = process.env.NODE_ENV || "default";
 
     // FORMAT SECTION
     const privateFormat = winston.format((info) => (info.private ? false : info));
