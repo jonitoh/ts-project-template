@@ -45,6 +45,10 @@ https://semver.org/lang/fr/
 project guideline
 https://github.com/elsewhencode/project-guidelines
 
+editorconfig
+https://editorconfig.org/
+
+
 
 
 
