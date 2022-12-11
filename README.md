@@ -44,13 +44,23 @@ https://semver.org/lang/fr/
 
 project guideline
 https://github.com/elsewhencode/project-guidelines
+https://github.com/CodeFactoryBerlin/OpenSourceRepoTemplate
 
 editorconfig
 https://editorconfig.org/
 
+others files in .github
+https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions
+
+for the lazy ones 
+https://github.com/dec0dOS/amazing-github-template
 
 
+other disposition structure bot a fan of it but hey it exists
+https://medium.com/code-factory-berlin/github-repository-structure-best-practices-248e6effc405
 
+some tuto
+https://www.freecodecamp.org/news/how-to-use-the-dot-github-repository/
 
 ### Features
 

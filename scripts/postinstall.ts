@@ -4,10 +4,10 @@ import { countFilesAndDirectoriesFromPath } from "./utils";
 
 const log = getLogger({ filepath: __filename });
 function postInstall(): void {
-    log.info("-- postinstall --");
+	log.info("-- postinstall --");
 
-    const count: TCounter = countFilesAndDirectoriesFromPath("./");
-    log.info(`infos on repository`, count);
+	const count: TCounter = countFilesAndDirectoriesFromPath("./");
+	log.info(`infos on repository`, count);
 }
 
 postInstall();

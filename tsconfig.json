@@ -1,18 +1,18 @@
 {
-    "extends": "./tsconfig.eslint.json",
-    "compilerOptions": {
-        "baseUrl": "./",
-        "rootDir": "src",
-        "noEmit": false,
-        "outDir": "dist",
-        "declaration": true,
-        "declarationMap": true,
-        "sourceMap": true,
-        "typeRoots": ["types", "node_modules/@types"],
-        "paths": {
-            "#/*": ["src/*"]
-        }
-    },
-    "include": ["src/**/*.ts"],
-    "exclude": ["node_modules", "dist", "types", "logs"]
+	"extends": "./tsconfig.eslint.json",
+	"compilerOptions": {
+		"baseUrl": "./",
+		"rootDir": "src",
+		"noEmit": false,
+		"outDir": "dist",
+		"declaration": true,
+		"declarationMap": true,
+		"sourceMap": true,
+		"typeRoots": ["types", "node_modules/@types"],
+		"paths": {
+			"#/*": ["src/*"]
+		}
+	},
+	"include": ["src/**/*.ts"],
+	"exclude": ["node_modules", "dist", "types", "logs"]
 }
