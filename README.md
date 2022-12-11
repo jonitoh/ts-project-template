@@ -27,6 +27,16 @@ colorize à voir
 https://stackoverflow.com/questions/51135092/winston-colorizer-throwing-error
 
 
+
+force on npm install node and npm versions
+https://stackoverflow.com/questions/36396943/is-there-a-way-to-check-node-and-npm-versions-before-a-npm-install
+https://medium.com/codeptivesolutions/want-to-check-node-version-before-project-get-executed-using-script-47cd32c2f1fe
+https://stackoverflow.com/questions/46556921/npm-preinstall-script
+https://github.com/nvm-sh/nvm#bash-completion
+
+
+
+
 ### Features
 
 Developer experience first:
