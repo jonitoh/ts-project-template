@@ -34,6 +34,8 @@ https://medium.com/codeptivesolutions/want-to-check-node-version-before-project-
 https://stackoverflow.com/questions/46556921/npm-preinstall-script
 https://github.com/nvm-sh/nvm#bash-completion
 
+verify env vars
+https://github.com/elsewhencode/project-guidelines/blob/master/configWithTest.sample.js
 
 
 
