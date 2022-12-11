@@ -37,6 +37,15 @@ https://github.com/nvm-sh/nvm#bash-completion
 verify env vars
 https://github.com/elsewhencode/project-guidelines/blob/master/configWithTest.sample.js
 
+semantic versioning
+https://semver.org/
+https://semver.org/lang/fr/
+
+
+project guideline
+https://github.com/elsewhencode/project-guidelines
+
+
 
 
 ### Features
