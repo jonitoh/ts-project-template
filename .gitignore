@@ -138,3 +138,7 @@ $RECYCLE.BIN/
 Thumbs.db
 ehthumbs.db
 ehthumbs_vista.db
+
+
+# Garbage one
+/.temp
